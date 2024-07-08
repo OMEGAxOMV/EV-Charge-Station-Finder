@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+ /* Basic styling for the header */
+ header {
+    background-color: rgb(13, 13, 85);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Styling for the navigation items */
+.nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+}
+
+.nav-item:hover{
+cursor: pointer;
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+/* Styling for each navigation item */
+.nav-item {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+/* Styling for the login button */
+.login-button {
+    background-color: white;
+    color: blue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home{
+    margin: 0;
+    padding: 0;
+     background-image: url('bg.jpg');
+    
+     height: 90vh; /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.content {
+    margin-top: 300px;
+    height: 300px;
+    width: 700px;
+    margin-left: 450px;
+    padding: 20px;
+    background-color:white;
+    justify-content: center;
+     /*transition: transform 0.3s ease; /* Adjust the opacity to your preference */
+}
+
+.content:hover{
+   /* transform: scale(1.2); */
+}
+
+.content h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+.content h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content button{
+    
+    align-items: center;
+    margin-top: 25px;
+      margin-left: 270px;
+    font-size: 15px;
+      height: 62px;
+      width: 164px;
+      border: 1px solid rgb(8, 8, 72) ;
+      color: rgb(8, 8, 72);
+      display: inline-block;
+      transition: transform 0.3s ease;
+}
+
+.content button:hover{
+    background-color:rgb(8, 8, 72) ;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
